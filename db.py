@@ -4,7 +4,7 @@ from parse import split_data
 
 conn = psycopg2.connect(dbname="postgres",
                         user="postgres",
-                        password="Apple123",
+                        password="root",
                         host="localhost",
                         port="5432"
                         )
